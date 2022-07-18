@@ -4,7 +4,7 @@
 
 const Theme = () => {
   return (
-    <div className="App">
+    <div className="App" style={{wordBreak: "break-all"}}>
         {/* <div className="fh5co-loader"></div>         */}
         <div id="page">	
         <header id="fh5co-header" className="fh5co-cover js-fullheight" role="banner" 
@@ -16,14 +16,14 @@ const Theme = () => {
                         <div className="display-t js-fullheight" style={{height: "789px"}}>
                             <div className="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
                                 <div className="profile-thumb" style={{backgroundImage: "url('images/user-3.jpg')"}}></div>
-                                <h1><span>Louie Jie Mahusay</span></h1>
-                                <h3><span>Web Developer / Photographer</span></h3>
+                                <h1><span>Saurav Kumar</span></h1>
+                                <h3><span>FullStack JavaScript Developer</span></h3>
                                 <p />
                                     <ul className="fh5co-social-icons">
-                                        <li><a href="#"><i className="icon-twitter2"></i></a></li>
-                                        <li><a href="#"><i className="icon-facebook2"></i></a></li>
-                                        <li><a href="#"><i className="icon-linkedin2"></i></a></li>
-                                        <li><a href="#"><i className="icon-dribbble2"></i></a></li>
+                                        <li><a href="https://mobile.twitter.com/imsauravsingh" target="_blank"><i className="icon-twitter2"></i></a></li>
+                                        <li><a href="https://www.facebook.com/imsauravsingh" target="_blank"><i className="icon-facebook2"></i></a></li>
+                                        <li><a href="https://in.linkedin.com/in/imsauravsingh" target="_blank"><i className="icon-linkedin2"></i></a></li>
+                                        <li><a href="#" target="_blank"><i className="icon-dribbble2"></i></a></li>
                                     </ul>
                             </div>
                         </div>
@@ -55,10 +55,10 @@ const Theme = () => {
                         <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci.</p>
                         <p>
                             <ul className="fh5co-social-icons">
-                                <li><a href="#"><i className="icon-twitter2"></i></a></li>
-                                <li><a href="#"><i className="icon-facebook3"></i></a></li>
-                                <li><a href="#"><i className="icon-linkedin2"></i></a></li>
-                                <li><a href="#"><i className="icon-dribbble2"></i></a></li>
+                                <li style={{padding:'5px'}}><a href="https://mobile.twitter.com/imsauravsingh" target="_blank"><i className="icon-twitter2"></i></a></li>
+                                <li style={{padding:'5px'}}><a href="https://www.facebook.com/imsauravsingh" target="_blank"><i className="icon-facebook3"></i></a></li>
+                                <li style={{padding:'5px'}}><a href="https://in.linkedin.com/in/imsauravsingh" target="_blank"><i className="icon-linkedin2"></i></a></li>
+                                <li style={{padding:'5px'}}><a href="#" target="_blank"><i className="icon-dribbble2"></i></a></li>
                             </ul>
                         </p>
                     </div>
@@ -474,7 +474,7 @@ const Theme = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="fh5co-blog animate-box">
-                            {/* <a href="#" className="blog-bg" style={{backgroundImage: "url('images/portfolio-2.jpg');"}}></a> */}
+                            <a href="#" className="blog-bg" style={{backgroundImage: "url(images/portfolio-2.jpg)"}}></a>
                             <div className="blog-text">
                                 <span className="posted_on">Mar. 15th 2016</span>
                                 <h3><a href="#">Surfing at Philippines</a></h3>
